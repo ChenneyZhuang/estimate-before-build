@@ -1,0 +1,15 @@
+{
+  "name": "estimate-before-build",
+  "version": "0.1.0",
+  "description": "Scope before code: turn the request into a bounded task list with assumptions named, estimate each task in size bands with the uncertainty driver named, surface the scope-vs-budget choice instead of silently picking one, and record the estimate so the finish-line comparison teaches the next estimate.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenneyZhuang/estimate-before-build.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
