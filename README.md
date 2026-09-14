@@ -29,6 +29,13 @@ Present, don't pick: full scope in the estimate, a reduced scope that fits the b
 
 摆出来，别替选：全范围、能塞进预算的缩减范围、或先 timebox 探明未知。然后把估算记录下来——因为**终点对账**（逐任务：估的 vs 实际）是让下次估算变准的唯一机制。
 
+## Honest limitations / 如实说明局限
+
+- Bands communicate shape, not dates; anyone who needs calendar promises needs a real planning process, not bigger bands.
+- Calibration works only if the finish-line comparison actually happens — skipped reconciliations teach nothing.
+
+档位传达形状不传达日期；需要日历承诺的人需要真正的计划流程，不是更大的档位。终点对账不做，校准就无从谈起。
+
 ## Install / 安装
 
 ```bash
