@@ -18,6 +18,10 @@ metadata:
 
 # Estimate Before Build: make the scope decision explicit
 
+## When to use
+
+Use before committing to build anything non-trivial: features, migrations, data pipelines, content projects. Use when someone asks 'how long will this take'. Not for contract bids requiring formal estimation processes.
+
 The expensive failure is not a wrong estimate; it is the unmade decision —
 building starts, the true size surfaces mid-way, and stopping then reads as
 failure. An estimate before the first edit turns the slide into a choice.
@@ -66,3 +70,9 @@ The work started with a bounded task list and banded estimates, the
 scope-vs-budget decision was made by the user with options on the table,
 the estimate is recorded, and the finish-line comparison exists to teach
 the next one.
+
+## Gotchas / 常见坑
+
+- An estimate communicates scale (S/M/L), not dates — promising a date from a size class is where trust breaks.
+- Re-estimate after any scope change; a stale estimate is worse than none because it is still believed.
+- Track actuals against the estimate; without that loop the same miscalibration repeats every cycle.

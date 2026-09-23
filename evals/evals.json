@@ -1,0 +1,23 @@
+{
+  "skill_name": "estimate-before-build",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "这个功能要多久？帮我估一下，我下周一要跟老板说",
+      "expected_output": "An S/M/L scale estimate with scope assumptions listed explicitly and no date promise derived from the size class; a re-estimate trigger for scope changes noted.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Estimate this build before we start so we can prioritize",
+      "expected_output": "A size-class estimate with what's included/excluded, calibrated against tracked actuals if any exist, and an explicit statement that it communicates scale, not dates.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "上次估小了，这次怎么才能不重蹈覆辙",
+      "expected_output": "A revised estimate with the actuals-vs-estimate loop applied — where the last calibration went wrong and what changes this time.",
+      "files": []
+    }
+  ]
+}
